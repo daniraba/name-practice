@@ -1,0 +1,11 @@
+name = input("What's your name? ")
+if name[0].lower() in {'a','b'}:
+  print('Go to room AB')
+elif name[0].lower() in {'c','d'}:
+  print('Go to room CD')
+else:
+  last = input("What's your last name?")
+  if last[0].lower() in {'z'}:
+    print('Go to room Z.')
+  else:
+    print('Go to room OTHER')
